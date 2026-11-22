@@ -9,7 +9,8 @@ Generated in Higgsfield with `gpt_image_2_6`, 1:1, then cropped to a transparent
 - Brand palette only: Night Sky #092A4D, Dark Forest #1B4532, Sand #D1CCBD, Deep Orange #E7805D, Sunset Yellow #F9D635, Gray Sky #99ADC5, off-white.
 - No text, letters, numbers or logos (names and dates live in the cancellation, set in Dharma Gothic).
 - No people.
-- **No identifiable buildings.** Library rule for image generators. Historic-site stickers use the landscape or period objects instead (Sagamore Hill: oaks over Oyster Bay; Birthplace: gas lamp, railing, notebook; Inaugural: autumn maples and bunting).
+- **Buildings:** for historic sites the building is the subject (Matt's direction, Nov 2026). Use a public-domain or CC0 photo as the reference image where one exists (Sagamore Hill: HABS NY-6051, Library of Congress; Inaugural Site: CC0 Wikimedia photo) so the architecture is accurate. Don't use CC BY-SA photos as references.
+- **Indigenous cultural sites** (Chaco, Mesa Verde, Gila, Tonto, Montezuma Castle, El Morro, Hubbell): architecture and landscape only; no invented rock art, symbols or people. These go to the Library's reviewers before launch.
 
 ## Prompt template
 
@@ -22,7 +23,9 @@ Sunset Yellow #F9D635, Gray Sky blue #99ADC5, off-white. Absolutely NO text, let
 logos. No people, no buildings.
 ```
 
-## Scenes used
+## Scenes
+
+The 72 national-park and T.R.-site scenes added in November 2026 are in `tools/scenes.json`. The first 12:
 
 | Site | Scene |
 |---|---|
