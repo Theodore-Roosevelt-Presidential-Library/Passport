@@ -1,0 +1,63 @@
+{
+  "thro": {
+    "place": "Medora, ND",
+    "tr": "T.R. came to the Dakota Badlands in 1883 to hunt bison and stayed to run the Maltese Cross and Elkhorn ranches. The park protects the country where he ranched.",
+    "_note": "hand-written; pending HistorianPanel review",
+    "featured": true
+  },
+  "sahi": {
+    "place": "Oyster Bay, NY",
+    "tr": "T.R.'s home from 1885 until his death in 1919, and the Summer White House during his presidency.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "thrb": {
+    "place": "New York, NY",
+    "tr": "A reconstruction of the brownstone at 28 East 20th Street where T.R. was born on October 27, 1858.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "thri": {
+    "place": "Buffalo, NY",
+    "tr": "In the Ansley Wilcox House, T.R. took the oath of office on September 14, 1901, after the death of President William McKinley.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "yell": {
+    "place": "Yellowstone, WY",
+    "tr": "T.R. toured Yellowstone in April 1903 and laid the cornerstone of the North Entrance arch that now carries his name.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "deto": {
+    "place": "Devils Tower, WY",
+    "tr": "On September 24, 1906, T.R. proclaimed Devils Tower the first national monument under the Antiquities Act.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "meve": {
+    "place": "Mesa Verde, CO",
+    "tr": "T.R. signed the act creating Mesa Verde National Park on June 29, 1906. The park protects thousands of archaeological sites, including cliff dwellings built by Ancestral Pueblo people.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "wica": {
+    "place": "Hot Springs, SD",
+    "tr": "On January 9, 1903, T.R. signed the bill making Wind Cave a national park.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "grca": {
+    "place": "Grand Canyon, AZ",
+    "tr": "T.R. visited the South Rim in May 1903 and proclaimed Grand Canyon National Monument on January 11, 1908.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "pefo": {
+    "place": "Petrified Forest, AZ",
+    "tr": "T.R. proclaimed Petrified Forest National Monument on December 8, 1906.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "muwo": {
+    "place": "Mill Valley, CA",
+    "tr": "T.R. proclaimed Muir Woods National Monument on January 9, 1908, on redwood land donated by William and Elizabeth Kent.",
+    "_note": "hand-written; pending HistorianPanel review"
+  },
+  "crla": {
+    "place": "Crater Lake, OR",
+    "tr": "Crater Lake became a national park on May 22, 1902, when T.R. signed the bill creating it.",
+    "_note": "hand-written; pending HistorianPanel review"
+  }
+}

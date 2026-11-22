@@ -1,8 +1,8 @@
 // Offline support: many parks have little or no signal, so the passport,
 // stickers and fonts are cached for use in the field.
-const CACHE = "trpassport-v1";
+const CACHE = "trpassport-v2";
 const CORE = [
-  "./", "index.html", "css/app.css", "js/app.js", "js/cancel.js", "js/store.js", "data/sites.json",
+  "./", "index.html", "css/app.css", "js/app.js", "js/cancel.js", "js/store.js", "js/geo.js", "js/stats.js", "assets/badges/_generic.webp", "data/sites.json",
   "assets/fonts/DharmaGothicE-Bold.woff2", "assets/fonts/FrutigerNextCom-Regular.woff2", "assets/fonts/FrutigerNextCom-Bold.woff2",
   "assets/brand/trpl-tr-brand-mark-sunset-yellow.svg", "assets/brand/trpl-tr-brand-mark-night-sky.svg",
   "assets/brand/trpl-logo-horizontal-white.svg", "assets/brand/trpl-logo-horizontal-black.svg",

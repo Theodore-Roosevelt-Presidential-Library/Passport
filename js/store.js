@@ -68,6 +68,12 @@
         r.onerror = () => resolve(null);
       });
     },
+    removeVisit(id) { state.visits = state.visits.filter((v) => v.id !== id); save(); },
+    async setHolderPhoto(blob) {
+      await tx("readwrite", (s) => s.put({ id: "holder", blob, created: new Date().toISOString() }));
+      state.holder = Object.assign({}, state.holder, { hasPhoto: true, photoAt: Date.now() }); save();
+    },
+    holderPhoto() { return state.holder && state.holder.hasPhoto ? this.photo("holder") : Promise.resolve(null); },
     export() { return JSON.stringify(state, null, 2); },
     async reset() {
       state = blank(); save();
