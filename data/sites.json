@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "regions": [
+    { "id": "north-atlantic", "name": "North Atlantic", "states": "ME · NH · VT · MA · RI · CT · NY", "color": "#092A4D" },
+    { "id": "national-capital", "name": "National Capital", "states": "DC and nearby", "color": "#25282A" },
+    { "id": "midwest", "name": "Midwest", "states": "ND · SD · NE · KS · MN · IA · MO · WI · IL · MI · IN · OH", "color": "#1B4532" },
+    { "id": "rocky-mountain", "name": "Rocky Mountain", "states": "MT · WY · CO · UT", "color": "#092A4D" },
+    { "id": "southwest", "name": "Southwest", "states": "AZ · NM · OK · TX", "color": "#25282A" },
+    { "id": "western", "name": "Western", "states": "CA · NV · HI", "color": "#1B4532" },
+    { "id": "pacific-northwest", "name": "Pacific Northwest & Alaska", "states": "WA · OR · ID · AK", "color": "#092A4D" }
+  ],
+  "sites": [
+    {
+      "id": "thro", "name": "Theodore Roosevelt National Park", "short": "Theodore Roosevelt",
+      "designation": "National Park", "agency": "NPS", "region": "midwest",
+      "city": "Medora", "state": "ND",
+      "points": [[46.9157, -103.5249], [47.5975, -103.3920], [47.2160, -103.6200]], "radiusKm": 20,
+      "tr": "T.R. came to the Dakota Badlands in 1883 to hunt bison and stayed to run the Maltese Cross and Elkhorn ranches. The park protects the country where he ranched.",
+      "url": "https://www.nps.gov/thro/", "sticker": "thro", "featured": true
+    },
+    {
+      "id": "sahi", "name": "Sagamore Hill National Historic Site", "short": "Sagamore Hill",
+      "designation": "National Historic Site", "agency": "NPS", "region": "north-atlantic",
+      "city": "Oyster Bay", "state": "NY",
+      "points": [[40.8856, -73.4983]], "radiusKm": 2,
+      "tr": "T.R.'s home from 1885 until his death in 1919, and the Summer White House during his presidency.",
+      "url": "https://www.nps.gov/sahi/", "sticker": "sahi"
+    },
+    {
+      "id": "thrb", "name": "Theodore Roosevelt Birthplace National Historic Site", "short": "T.R. Birthplace",
+      "designation": "National Historic Site", "agency": "NPS", "region": "north-atlantic",
+      "city": "New York", "state": "NY",
+      "points": [[40.7388, -73.9886]], "radiusKm": 1,
+      "tr": "A reconstruction of the brownstone at 28 East 20th Street where T.R. was born on October 27, 1858.",
+      "url": "https://www.nps.gov/thrb/", "sticker": "thrb"
+    },
+    {
+      "id": "thri", "name": "Theodore Roosevelt Inaugural National Historic Site", "short": "T.R. Inaugural",
+      "designation": "National Historic Site", "agency": "NPS", "region": "north-atlantic",
+      "city": "Buffalo", "state": "NY",
+      "points": [[42.9017, -78.8726]], "radiusKm": 1,
+      "tr": "In the Ansley Wilcox House, T.R. took the oath of office on September 14, 1901, after the death of President William McKinley.",
+      "url": "https://www.nps.gov/thri/", "sticker": "thri"
+    },
+    {
+      "id": "yell", "name": "Yellowstone National Park", "short": "Yellowstone",
+      "designation": "National Park", "agency": "NPS", "region": "rocky-mountain",
+      "city": "Yellowstone", "state": "WY",
+      "points": [[44.4280, -110.5885], [44.9766, -110.6962], [44.6577, -111.0989]], "radiusKm": 45,
+      "tr": "T.R. toured Yellowstone in April 1903 and laid the cornerstone of the North Entrance arch that now carries his name.",
+      "url": "https://www.nps.gov/yell/", "sticker": "yell"
+    },
+    {
+      "id": "deto", "name": "Devils Tower National Monument", "short": "Devils Tower",
+      "designation": "National Monument", "agency": "NPS", "region": "rocky-mountain",
+      "city": "Devils Tower", "state": "WY",
+      "points": [[44.5902, -104.7146]], "radiusKm": 5,
+      "tr": "On September 24, 1906, T.R. proclaimed Devils Tower the first national monument under the Antiquities Act.",
+      "url": "https://www.nps.gov/deto/", "sticker": "deto"
+    },
+    {
+      "id": "meve", "name": "Mesa Verde National Park", "short": "Mesa Verde",
+      "designation": "National Park", "agency": "NPS", "region": "rocky-mountain",
+      "city": "Mesa Verde", "state": "CO",
+      "points": [[37.2309, -108.4618]], "radiusKm": 20,
+      "tr": "T.R. signed the act creating Mesa Verde National Park on June 29, 1906. The park protects thousands of archaeological sites, including cliff dwellings built by Ancestral Pueblo people.",
+      "url": "https://www.nps.gov/meve/", "sticker": "meve"
+    },
+    {
+      "id": "wica", "name": "Wind Cave National Park", "short": "Wind Cave",
+      "designation": "National Park", "agency": "NPS", "region": "midwest",
+      "city": "Hot Springs", "state": "SD",
+      "points": [[43.5560, -103.4787]], "radiusKm": 12,
+      "tr": "On January 9, 1903, T.R. signed the bill making Wind Cave a national park.",
+      "url": "https://www.nps.gov/wica/", "sticker": "wica"
+    },
+    {
+      "id": "grca", "name": "Grand Canyon National Park", "short": "Grand Canyon",
+      "designation": "National Park", "agency": "NPS", "region": "southwest",
+      "city": "Grand Canyon", "state": "AZ",
+      "points": [[36.0544, -112.1401], [36.1983, -112.0527]], "radiusKm": 40,
+      "tr": "T.R. visited the South Rim in May 1903 and proclaimed Grand Canyon National Monument on January 11, 1908.",
+      "url": "https://www.nps.gov/grca/", "sticker": "grca"
+    },
+    {
+      "id": "pefo", "name": "Petrified Forest National Park", "short": "Petrified Forest",
+      "designation": "National Park", "agency": "NPS", "region": "southwest",
+      "city": "Petrified Forest", "state": "AZ",
+      "points": [[34.9100, -109.8068]], "radiusKm": 30,
+      "tr": "T.R. proclaimed Petrified Forest National Monument on December 8, 1906.",
+      "url": "https://www.nps.gov/pefo/", "sticker": "pefo"
+    },
+    {
+      "id": "muwo", "name": "Muir Woods National Monument", "short": "Muir Woods",
+      "designation": "National Monument", "agency": "NPS", "region": "western",
+      "city": "Mill Valley", "state": "CA",
+      "points": [[37.8970, -122.5811]], "radiusKm": 2,
+      "tr": "T.R. proclaimed Muir Woods National Monument on January 9, 1908, on redwood land donated by William and Elizabeth Kent.",
+      "url": "https://www.nps.gov/muwo/", "sticker": "muwo"
+    },
+    {
+      "id": "crla", "name": "Crater Lake National Park", "short": "Crater Lake",
+      "designation": "National Park", "agency": "NPS", "region": "pacific-northwest",
+      "city": "Crater Lake", "state": "OR",
+      "points": [[42.9446, -122.1090]], "radiusKm": 15,
+      "tr": "Crater Lake became a national park on May 22, 1902, when T.R. signed the bill creating it.",
+      "url": "https://www.nps.gov/crla/", "sticker": "crla"
+    }
+  ]
+}
