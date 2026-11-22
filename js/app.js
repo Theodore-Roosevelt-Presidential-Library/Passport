@@ -418,7 +418,7 @@
       <div class="toggle"><div><b>Download my data</b><div class="caption" style="color:#5b6570">Stamps and profile as JSON.</div></div><button class="link-btn" id="exp">Download</button></div>
       <div class="toggle"><div><b>Reset passport</b><div class="caption" style="color:#5b6570">Erase stamps, photos and profile on this device.</div></div><button class="link-btn" id="rst">Reset</button></div>
       <h2 class="display">Credits</h2>
-      <p class="caption">Stamp illustrations were created with AI image generation (Higgsfield) in the Library's brand palette. Other badges use public-domain National Park Service photos unless credited otherwise. This passport is a project of the Theodore Roosevelt Presidential Library and is not affiliated with the National Park Service's Passport To Your National Parks program.</p>
+      <p class="caption">Stamp illustrations were created with AI image generation (Higgsfield) in the Library's brand palette. Other badges use National Park Service photos (public domain) unless credited otherwise. This passport is a project of the Theodore Roosevelt Presidential Library and is not affiliated with the National Park Service's Passport To Your National Parks program.</p>
       </div><div class="foot"><img src="assets/brand/trpl-logo-horizontal-black.svg" alt="Theodore Roosevelt Presidential Library"><a class="caption" href="https://www.trlibrary.com/visit">Plan your visit to the Library in Medora</a></div></div>${tabbar("about")}`;
     bindInstall($app);
     document.getElementById("sim").onchange = (e) => { Store.setSetting("simulate", e.target.checked); toast(e.target.checked ? "Location simulation on" : "Location simulation off"); };

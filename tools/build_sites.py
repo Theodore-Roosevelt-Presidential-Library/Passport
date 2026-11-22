@@ -129,8 +129,8 @@ def build(directory, curated):
 
 
 def badge(site, out_dir):
-    """Circular duotone badge (Night Sky → paper) from the unit's public-domain photo."""
-    from PIL import Image, ImageDraw, ImageOps
+    """Circular full-color badge from the unit's public-domain photo, with a paper rim like a sticker."""
+    from PIL import Image, ImageDraw, ImageEnhance, ImageOps
     path = os.path.join(out_dir, f"{site['id']}.webp")
     if os.path.exists(path):
         return site["id"], "cached"
@@ -141,18 +141,19 @@ def badge(site, out_dir):
     im.draft("RGB", (900, 900))
     w, h = im.size
     s = min(w, h)
-    im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s)).resize((360, 360), Image.LANCZOS)
-    g = ImageOps.autocontrast(ImageOps.grayscale(im), cutoff=1)
-    duo = ImageOps.colorize(g, black="#092A4D", white="#F4F1EA", mid="#99ADC5")
     size = 360
+    im = im.crop(((w - s) // 2, (h - s) // 2, (w - s) // 2 + s, (h - s) // 2 + s)).resize((size, size), Image.LANCZOS)
+    im = ImageOps.autocontrast(im, cutoff=0.5)
+    im = ImageEnhance.Color(im).enhance(1.15)
+    d = ImageDraw.Draw(im)
+    d.ellipse((4, 4, size - 5, size - 5), outline="#F4F1EA", width=12)
+    d.ellipse((2, 2, size - 3, size - 3), outline="#092A4D", width=4)
+    d.ellipse((15, 15, size - 16, size - 16), outline="#092A4D", width=2)
     mask = Image.new("L", (size * 4, size * 4), 0)
     ImageDraw.Draw(mask).ellipse((0, 0, size * 4 - 1, size * 4 - 1), fill=255)
-    mask = mask.resize((size, size), Image.LANCZOS)
-    ring = ImageDraw.Draw(duo)
-    ring.ellipse((6, 6, size - 7, size - 7), outline="#F4F1EA", width=5)
-    out = duo.convert("RGBA")
-    out.putalpha(mask)
-    out.save(path, "WEBP", quality=78)
+    out = im.convert("RGBA")
+    out.putalpha(mask.resize((size, size), Image.LANCZOS))
+    out.save(path, "WEBP", quality=80)
     return site["id"], "ok"
 
 
